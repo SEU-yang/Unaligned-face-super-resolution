@@ -4,7 +4,9 @@ Dear friends, Thank you for keep tracking in this implementation of HS-STNnet!
 
 ##  Prerequisites:
 Python 3.12
+
 Pytorch 2.2.2
+
 CUDA: 12.1
 
 
