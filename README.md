@@ -1,4 +1,4 @@
-# Unaligned Face Super-Resolution(HS-STNnet)
+# Unaligned Face Super-Resolution (HS-STNnet)
  
 Dear friends, Thank you for keep tracking in this implementation of HS-STNnet!
 
