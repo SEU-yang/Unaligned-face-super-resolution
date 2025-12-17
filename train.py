@@ -174,10 +174,14 @@ optimizer_D = torch.optim.RMSprop(discriminator.parameters(),lr = opt.lr_D)
 Tensor = torch.cuda.FloatTensor if torch.cuda.is_available() else torch.Tensor
 
 
-def adjust_learning_rate(epoch, lrr):
-    ##Sets the learning rate to the initial LR decayed by 10 every 30 epochs"""
-    lr = lrr * (0.99 ** (epoch // 1))
-    return lr
+def adjust_loss_ratio(epoch, ratio):
+    """
+    按照每个 epoch 衰减 loss ratio，直到最小值为 1 停止下降。
+    """
+    ratio_new = ratio * (0.9 ** epoch)  # 每个 epoch 衰减 0.9 倍
+    ratio_new = max(ratio_new, 1)       # 最小值限制为 1
+    return ratio_new
+
 
 
 for epoch in range(opt.epoch, opt.n_epochs):
@@ -244,13 +248,11 @@ for epoch in range(opt.epoch, opt.n_epochs):
         loss_id = arcface_id_loss(gen_hr, imgs_hr)
 
         ##
-        #weight = 1e-2
-        #weight_adapt = adjust_learning_rate(epoch, weight)
+        weight = 10
+        weight_adapt = adjust_loss_ratio(epoch, weight)
 
         # Total loss
-        #loss_G = loss_l2 + (1e-2) * loss_color + (1e-2) * loss_content + weight_adapt * loss_GAN + loss_land_all
-
-        loss_G = loss_l2 + loss_land_all + loss_face_landmark + (1e-2) * loss_content + (1e-5) * loss_id + (1e-2) * loss_GAN
+        loss_G = loss_l2 + weight_adapt * loss_land_all + loss_face_landmark + (1e-2) * loss_content + (1e-5) * loss_id + (1e-2) * loss_GAN
 
         loss_G.backward()
         optimizer_G.step()
