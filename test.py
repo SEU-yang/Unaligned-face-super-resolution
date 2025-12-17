@@ -118,7 +118,7 @@ for i, imgs in enumerate(testing_loader):
             imgs_lr_up1 = uplr_near(imgs_lr)
             imgs_lr_up2 = uplr_bili(imgs_lr)
 
-            gen_hr, heatmaps, heatmap_1 = generator(imgs_lr)
+            gen_hr, heatmap_1, heatmap_2, heatmap_3 = generator(imgs_lr)
 
 
             batches_done = i
