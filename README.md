@@ -12,7 +12,7 @@ CUDA: 12.1
 
 ##  Our unaligned/aligned face datasets:
 
-[下载训练数据集] (https://pan.baidu.com/s/1BvSqXGNz0A_AIlnI5vCPZw?pwd=1234)
+[下载训练数据集](https://pan.baidu.com/s/1BvSqXGNz0A_AIlnI5vCPZw?pwd=1234)
 
 提取码: 1234 
 
