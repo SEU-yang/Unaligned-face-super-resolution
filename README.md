@@ -19,21 +19,21 @@ Clone this repo.
 
 ## Dataset Preparation:
 
-Our unaligned/aligned face datasets:
+### Our unaligned/aligned face datasets:
 
 [下载训练数据集](https://pan.baidu.com/s/1BvSqXGNz0A_AIlnI5vCPZw?pwd=1234)
 
 提取码: 1234 
 
 
-Our extreme_unaligned/aligned face datasets:
+### Our extreme_unaligned/aligned face datasets:
 
 [下载extreme_unaligned训练数据集](https://pan.baidu.com/s/19-_Bq2p-D20GG_nIp15PVA?pwd=1234)
 
 提取码: 1234 
 
 
-Preparing your own training dataset:
+### Preparing your own training dataset:
 
 `python Unaligned_Faces_Generation.py`
 
@@ -62,7 +62,7 @@ To evaluate your trained model, create testing_list.txt containing the paths of 
 Please refer to the [IQA-PyTorch] (https://github.com/chaofengc/IQA-PyTorch) and [pytorch-fid] (https://github.com/mseitzer/pytorch-fid).
 
 
-## The code is released for academic research use only.
+###  The code is released for academic research use only.
 
 
 
