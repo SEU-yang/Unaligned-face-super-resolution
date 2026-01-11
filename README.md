@@ -3,6 +3,14 @@
 Dear friends, Thank you for keep tracking in this implementation of HS-STNnet!
 
 
+### Environment
+
+- OS: Ubuntu 20.04
+- GPU: NVIDIA RTX 4090D
+- CUDA: 12.1
+- PyTorch: 2.2.2
+
+
 ### Installation:
 
 Clone this repo.
