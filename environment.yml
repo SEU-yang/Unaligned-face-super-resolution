@@ -133,3 +133,10 @@ dependencies:
   - pytorch=1.2.0=cuda100py37h938c94c_0.conda
   - qt=5.9.7=h5867ecd_1.conda
   - torchvision=0.4.0=cuda100py37hecfc37a_0.conda
+
+
+  - Python 3.12
+
+  - Pytorch 2.2.2
+
+  - CUDA: 12.1
