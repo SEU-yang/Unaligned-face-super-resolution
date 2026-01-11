@@ -1,4 +1,4 @@
-## Unaligned Face Hallucination with Hierarchical Structure-Aware Spatial Transforming Network
+# Unaligned Face Hallucination with Hierarchical Structure-Aware Spatial Transforming Network
  
 Dear friends, Thank you for keep tracking in this implementation of HS-STNnet!
 
