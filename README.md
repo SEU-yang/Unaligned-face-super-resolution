@@ -62,7 +62,7 @@ To evaluate your trained model, create testing_list.txt containing the paths of 
 Please refer to the [IQA-PyTorch] (https://github.com/chaofengc/IQA-PyTorch) and [pytorch-fid] (https://github.com/mseitzer/pytorch-fid).
 
 
-###  The code is released for academic research use only.
+The code is released for academic research use only.
 
 
 
