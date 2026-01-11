@@ -10,6 +10,8 @@ Pytorch 2.2.2
 
 CUDA: 12.1
 
+##  Training datast prepare pipeline:
+
 
 
 ##  Our unaligned/aligned face datasets:
