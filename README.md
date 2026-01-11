@@ -3,6 +3,20 @@
 Dear friends, Thank you for keep tracking in this implementation of HS-STNnet!
 
 
+##  Installation:
+
+#Clone this repo.
+
+git clone https://github.com/SEU-yang/Unaligned-face-super-resolution.git
+cd Unaligned-face-super-resolution/
+
+
+#Create the anaconda environment by
+
+conda env create -f environment.yml
+
+
+
 ##  Prerequisites:
 Python 3.12
 
