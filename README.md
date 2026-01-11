@@ -9,12 +9,12 @@ Clone this repo.
 
 `git clone https://github.com/SEU-yang/Unaligned-face-super-resolution.git
 
-cd Unaligned-face-super-resolution/'
+cd Unaligned-face-super-resolution/`
 
 
 ## Create the anaconda environment by
 
-`conda env create -f environment.yml'
+`conda env create -f environment.yml`
 
 
 ## Dataset Preparation:
@@ -35,7 +35,7 @@ Our extreme_unaligned/aligned face datasets:
 
 Preparing your own training dataset:
 
-`python Unaligned_Faces_Generation.py'
+`python Unaligned_Faces_Generation.py`
 
 Update img_dir and landmark_file to point to your dataset.
 
@@ -45,7 +45,7 @@ Update img_dir and landmark_file to point to your dataset.
 
 To train a new model, replace training_list.txt with a file listing the paths of your own low-resolution (LR) and high-resolution (HR) face images. Then run:
 
-`python train.py'
+`python train.py`
 
 The models will be saved at ./saved_models
 
@@ -54,7 +54,7 @@ The models will be saved at ./saved_models
 
 To evaluate your trained model, create testing_list.txt containing the paths of your LR and HR face images. Then run:
 
-`python test.py'
+`python test.py`
 
 
 ## Evaluiton:
