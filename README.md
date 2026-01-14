@@ -9,35 +9,33 @@ This repository provides the official code for model training, testing, and data
 
 ## Directory and File Overview
 
-```bash
 
-`arcface/'
+- **`arcface/`** 
 Contains pretrained face recognition models (ArcFace), used to support the identity-preserving loss.
 
-`models/'
+- **`models/`**  
 Implements the proposed HS-STNet architecture, including the main network, alignment and enhancement modules, and other core components.
 
-`Unaligned_Faces_Generation.py'
+- **`Unaligned_Faces_Generation.py`** 
 Script for generating aligned and unaligned face image pairs from raw datasets.
 
-`train.py'
+- **`train.py`** 
 Main training script for model optimization and checkpoint saving.
 
-`test.py'
+- **`test.py`**
 Script for model testing and evaluation on test images.
 
-`environment.yml'
+- **`environment.yml`** 
 Conda environment configuration file for dependency installation and reproducibility.
 
-`training_list.txt'
+- **`training_list.txt`**  
 List of training samples containing paired unaligned low-resolution (LR) and aligned high-resolution (HR) face images.
 
-`training_list_all.txt'
+- **`training_list_all.txt`**  
 List of extreme unaligned training samples containing paired extreme unaligned LR and aligned HR face images.
 
-`README.md'
+- **`README.md`** 
 Project documentation and usage instructions.
-```
 
 
 
