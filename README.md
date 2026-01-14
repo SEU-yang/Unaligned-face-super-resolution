@@ -65,9 +65,17 @@ To evaluate your trained model, create testing_list.txt containing the paths of 
 `python test.py`
 
 
-### Evaluiton:
+### Evaluaiton:
 
 Please refer to the [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch) and [pytorch-fid](https://github.com/mseitzer/pytorch-fid).
+
+
+### Responsible-use statement:
+
+HS-STNet is designed for academic research on face image super-resolution and face alignment.
+Given the sensitive nature of facial data, users are advised to respect privacy and ethical considerations, particularly when applying the model to real-world images.
+Potential risks include unauthorized reconstruction of personal identities or misuse in surveillance contexts.
+We encourage responsible application of the model, in compliance with applicable regulations and institutional guidelines.
 
 
 
