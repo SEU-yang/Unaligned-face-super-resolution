@@ -63,7 +63,9 @@ cd Unaligned-face-super-resolution/`
 
 ## Create the anaconda environment by
 
-`conda env create -f environment.yml`
+```bash
+conda env create -f environment.yml
+```
 
 
 
@@ -88,7 +90,9 @@ cd Unaligned-face-super-resolution/`
 
 ### Preparing your own training dataset:
 
-`python Unaligned_Faces_Generation.py`
+```bash
+python Unaligned_Faces_Generation.py
+```
 
 Update img_dir and landmark_file to point to your dataset.
 
@@ -98,7 +102,9 @@ Update img_dir and landmark_file to point to your dataset.
 
 To train a new model, replace training_list.txt with a file listing the paths of your own low-resolution (LR) and high-resolution (HR) face images. Then run:
 
-`python train.py`
+```bash
+python train.py
+```
 
 The models will be saved at ./saved_models
 
@@ -107,7 +113,8 @@ The models will be saved at ./saved_models
 
 To evaluate your trained model, create testing_list.txt containing the paths of your LR and HR face images. Then run:
 
-`python test.py`
+```bash
+python test.py
 
 ```
 
