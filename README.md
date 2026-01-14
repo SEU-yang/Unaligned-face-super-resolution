@@ -4,31 +4,31 @@ Dear friends, Thank you for keep tracking in this implementation of HS-STNnet!
 
 ## Directory and File Overview
 
-arcface/
+#### arcface/
 Contains face recognition and alignment related modules based on ArcFace, used to support facial feature extraction and alignment.
 
-models/
+#### models/
 Implements the proposed HS-STNet architecture, including alignment and enhancement modules, and other core network components.
 
-Unaligned_Faces_Generation.py
+#### Unaligned_Faces_Generation.py
 Script for generating aligned/unaligned face image pairs and corresponding training lists from raw datasets.
 
-train.py
+#### train.py
 Main training script for model optimization and checkpoint saving.
 
-test.py
+#### test.py
 Script for model inference and evaluation on test images.
 
-environment.yml
+#### environment.yml
 Conda environment configuration file for dependency installation and reproducibility.
 
-training_list.txt
+#### training_list.txt
 Training data list containing paired low-resolution and high-resolution face images.
 
-training_list_all.txt
+#### training_list_all.txt
 Extended training list including all available training samples.
 
-README.md
+#### README.md
 Project documentation and usage instructions.
 
 
