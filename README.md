@@ -57,9 +57,10 @@ Project documentation and usage instructions.
 
 Clone this repo.
 
+```bash
 git clone https://github.com/SEU-yang/Unaligned-face-super-resolution.git`
 cd Unaligned-face-super-resolution/`
-
+```
 
 ## Create the anaconda environment by
 
