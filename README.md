@@ -114,7 +114,7 @@ python test.py
 ```
 
 
-## Evaluaiton:
+## Evaluation:
 
 Please refer to the [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch) and [pytorch-fid](https://github.com/mseitzer/pytorch-fid).
 
