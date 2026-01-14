@@ -13,8 +13,7 @@ This repository provides the official code for model training, testing, and data
 - **`arcface/`** 
 Contains pretrained face recognition models (ArcFace), used to support the identity-preserving loss.
 
-- **`models/`**  
-Implements the proposed HS-STNet architecture, including the main network, alignment and enhancement modules, and other core components.
+- **`models/`**  Implements the proposed HS-STNet architecture, including the main network, alignment and enhancement modules, and other core components.
 
 - **`Unaligned_Faces_Generation.py`** 
 Script for generating aligned and unaligned face image pairs from raw datasets.
