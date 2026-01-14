@@ -37,7 +37,8 @@ Training data list containing paired low-resolution and high-resolution face ima
 Extended training list including all available training samples.
 
 #### `README.md'
-Project documentation and usage instructions.```
+Project documentation and usage instructions.
+```
 
 
 
