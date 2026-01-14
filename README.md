@@ -66,11 +66,11 @@ cd Unaligned-face-super-resolution/`
 `conda env create -f environment.yml`
 
 
+
 ## Resources
 
-```bash
 
-**Dataset Preparation:**
+## Dataset Preparation:
 
 ### Our unaligned/aligned face datasets:
 
