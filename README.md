@@ -70,7 +70,7 @@ cd Unaligned-face-super-resolution/`
 
 ```bash
 
-## Dataset Preparation:
+**Dataset Preparation:**
 
 ### Our unaligned/aligned face datasets:
 
