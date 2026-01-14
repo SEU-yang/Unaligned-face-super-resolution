@@ -7,34 +7,33 @@ This repository provides the official code for model training, testing, and data
  
 
 
-
 ## Directory and File Overview
 
 ```bash
 
 `arcface/'
-Contains face recognition and alignment related modules based on ArcFace, used to support facial feature extraction and alignment.
+Contains pretrained face recognition models (ArcFace), used to support the identity-preserving loss.
 
 `models/'
-Implements the proposed HS-STNet architecture, including alignment and enhancement modules, and other core network components.
+Implements the proposed HS-STNet architecture, including the main network, alignment and enhancement modules, and other core components.
 
 `Unaligned_Faces_Generation.py'
-Script for generating aligned/unaligned face image pairs and corresponding training lists from raw datasets.
+Script for generating aligned and unaligned face image pairs from raw datasets.
 
 `train.py'
 Main training script for model optimization and checkpoint saving.
 
 `test.py'
-Script for model inference and evaluation on test images.
+Script for model testing and evaluation on test images.
 
 `environment.yml'
 Conda environment configuration file for dependency installation and reproducibility.
 
 `training_list.txt'
-Training data list containing paired low-resolution and high-resolution face images.
+List of training samples containing paired unaligned low-resolution (LR) and aligned high-resolution (HR) face images.
 
 `training_list_all.txt'
-Extended training list including all available training samples.
+List of extreme unaligned training samples containing paired extreme unaligned LR and aligned HR face images.
 
 `README.md'
 Project documentation and usage instructions.
@@ -101,7 +100,7 @@ Update img_dir and landmark_file to point to your dataset.
 
 ### Train New Models:
 
-To train a new model, replace training_list.txt with a file listing the paths of your own low-resolution (LR) and high-resolution (HR) face images. Then run:
+To train a new model, replace training_list.txt with a file listing the paths of your own LR and HR face images. Then run:
 
 ```bash
 python train.py
