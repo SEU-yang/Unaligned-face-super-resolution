@@ -52,11 +52,11 @@ Project documentation and usage instructions.
 
 
 
+
 ## Installation:
 
 Clone this repo.
 
-```bash
 git clone https://github.com/SEU-yang/Unaligned-face-super-resolution.git`
 cd Unaligned-face-super-resolution/`
 
@@ -65,6 +65,10 @@ cd Unaligned-face-super-resolution/`
 
 `conda env create -f environment.yml`
 
+
+## Resources
+
+```bash
 
 ## Dataset Preparation:
 
@@ -104,6 +108,8 @@ The models will be saved at ./saved_models
 To evaluate your trained model, create testing_list.txt containing the paths of your LR and HR face images. Then run:
 
 `python test.py`
+
+```
 
 
 ## Evaluaiton:
