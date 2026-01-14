@@ -10,6 +10,8 @@ This repository provides the official code for model training, testing, and data
 
 ## Directory and File Overview
 
+```bash
+
 #### `arcface/'
 Contains face recognition and alignment related modules based on ArcFace, used to support facial feature extraction and alignment.
 
