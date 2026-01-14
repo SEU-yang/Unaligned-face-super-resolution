@@ -27,11 +27,9 @@ Script for model testing and evaluation on test images.
 - **`environment.yml`** 
 Conda environment configuration file for dependency installation and reproducibility.
 
-- **`training_list.txt`**  
-List of training samples containing paired unaligned low-resolution (LR) and aligned high-resolution (HR) face images.
+- **`training_list.txt`**  List of training samples containing paired unaligned low-resolution (LR) and aligned high-resolution (HR) face images.
 
-- **`training_list_all.txt`**  
-List of extreme unaligned training samples containing paired extreme unaligned LR and aligned HR face images.
+- **`training_list_all.txt`**  List of extreme unaligned training samples containing paired extreme unaligned LR and aligned HR face images.
 
 - **`README.md`** 
 Project documentation and usage instructions.
