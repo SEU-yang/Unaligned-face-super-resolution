@@ -22,7 +22,7 @@ Script for generating aligned and unaligned face image pairs from raw datasets.
 Main training script for model optimization and checkpoint saving.
 
 - **`test.py`**
-Script for model testing on test images.
+Script for evaluating the trained model on test images.
 
 - **`environment.yml`** 
 Conda environment configuration file for dependency installation and reproducibility.
