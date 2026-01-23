@@ -103,7 +103,7 @@ The models will be saved at ./saved_models
 
 ### Test:
 
-[BaiduPan Download the testing dataset](https://pan.baidu.com/s/1LZgbXjinTsuVDInfF-WjgA?pwd=1234)      (pw: 1234) 
+[BaiduPan: Download the testing dataset](https://pan.baidu.com/s/1LZgbXjinTsuVDInfF-WjgA?pwd=1234)      (pw: 1234) 
 
 
 To evaluate your trained model, create testing_list.txt containing the paths of your LR and HR face images. Then run:
