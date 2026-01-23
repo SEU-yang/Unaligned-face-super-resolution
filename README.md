@@ -71,14 +71,14 @@ conda env create -f environment.yml
 
 #### Our unaligned/aligned face datasets:
 
-[BaiduPan Download the training dataset](https://pan.baidu.com/s/1BvSqXGNz0A_AIlnI5vCPZw?pwd=1234)
+[BaiduPan: Download the training dataset](https://pan.baidu.com/s/1BvSqXGNz0A_AIlnI5vCPZw?pwd=1234)
 
 Extraction code: 1234 
 
 
 #### Our extreme_unaligned/aligned face datasets:
 
-[BaiduPan Download the extreme_unaligned training dataset](https://pan.baidu.com/s/19-_Bq2p-D20GG_nIp15PVA?pwd=1234)
+[BaiduPan: Download the extreme_unaligned training dataset](https://pan.baidu.com/s/19-_Bq2p-D20GG_nIp15PVA?pwd=1234)
 
 Extraction code: 1234 
 
