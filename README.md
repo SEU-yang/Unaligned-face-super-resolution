@@ -108,6 +108,10 @@ The models will be saved at ./saved_models
 [BaiduPan: Download the testing dataset](https://pan.baidu.com/s/1LZgbXjinTsuVDInfF-WjgA?pwd=1234)      (pw: 1234) 
 
 
+[Google Drive: Download the testing dataset](https://drive.google.com/drive/folders/1AMkD6vAx9bO9fQ4zD7gyWEbIT3L3cVJV?usp=sharing)
+
+
+
 To evaluate your trained model, create testing_list.txt containing the paths of your LR and HR face images. Then run:
 
 ```bash
