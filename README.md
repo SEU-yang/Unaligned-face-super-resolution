@@ -64,7 +64,6 @@ conda env create -f environment.yml
 
 
 
-
 ## Resources:
 
 ### Dataset Preparation:
@@ -81,7 +80,6 @@ conda env create -f environment.yml
 [BaiduPan: Download the extreme_unaligned training dataset](https://pan.baidu.com/s/1DedwAbkhSdBR-kcNZvv9tg?pwd=1234)       (pw: 1234) 
 
 [Google Drive: Download the extreme_unaligned training dataset](https://drive.google.com/drive/folders/1X4H3IAn2Z2JFpDyTYuZyjkdtWc7t40aE?usp=sharing)
-
 
 
 
@@ -112,6 +110,7 @@ The models will be saved at ./saved_models
 
 
 [Google Drive: Download the testing dataset](https://drive.google.com/drive/folders/1AMkD6vAx9bO9fQ4zD7gyWEbIT3L3cVJV?usp=sharing)
+
 
 
 
